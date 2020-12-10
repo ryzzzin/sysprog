@@ -22,6 +22,7 @@ namespace ConsoleApp5
             proc_info.FileName = "notepad";
             proc_info.Arguments = "";
             var proc = Process.Start(proc_info);
+            //var proc = Process.Start("notepad");
             Thread.Sleep(3000);
             proc.Kill();
         }
